@@ -1,10 +1,10 @@
 # Summary
-This repo explores how to use XUnit Theory & data driven tests. 
+This repo explores how to use XUnit Theory tests using the InlineData attribute. 
 
 # Problem
 These tests are used to test a solution to the following problem:
 
-A given sequnce of integer all have the same delta (Δ), yet one number is missing. Find the missing number. For example:
+A given sequence of whole numbers all have the same delta (Δ), yet one number is missing. Find the missing number. For example:
 
 Example 1: {1,2,4} Δ=1, Missing = 3 <br/>
 Example 2: {1,3,4} Δ=1, Missing = 2 <br/>
@@ -40,3 +40,6 @@ This seems to provide a good balance between:
 * The ability to put breakpoints on tests
 * Human test readability
 * Test maintainability
+
+# Other Testing Options
+Other XUnit theory tests (ClassData, MemberData) were explored, but the "test noise" overwhelmed the clarity of the simpler solution. 

@@ -2,8 +2,6 @@
 This repo explores how to use XUnit Theory tests using the InlineData attribute. 
 
 # Problem
-These tests are used to test a solution to the following problem:
-
 A given sequence of whole numbers all have the same delta (Δ), yet one number is missing. Find the missing number. For example:
 
 Example 1: {1,2,4} Δ=1, Missing = 3 <br/>

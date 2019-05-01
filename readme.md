@@ -23,7 +23,7 @@ The theory tests allow different ways of expressing the missing number. For exam
 ```
 [InlineData(1, 2, 4, 3)]
 ```
-Represents the same sequence, but the "3" is missing. By placing the "3" at the end, the test Asserts the correct value was found.
+... represents the sequence {1,2,3,4}, but the "3" is missing. By placing the "3" at the end, the test Asserts the correct value was found.
 
 Test cases end up looking like:
 ```cs

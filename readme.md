@@ -40,3 +40,6 @@ This seems to provide a good balance between:
 * The ability to put breakpoints on tests
 * Human test readability
 * Test maintainability
+
+# Other Testing Options
+Other XUnit theory tests (ClassData, MemberData) were explored, but the "test noise" overwhelmed the clarity of the simpler solution. 

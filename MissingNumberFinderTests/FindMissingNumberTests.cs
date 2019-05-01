@@ -19,16 +19,6 @@ namespace MissingNumberFinderTests
         }
 
         [Theory] // [item, item, item, MISSING NUMBER]
-        [InlineData(1, 2, 3)]
-        [InlineData(1, 2, 1)]
-        [InlineData(2, 4, 9)]
-        public void Throws_On_Invalid_Lists(int value0, int value1, int value2)
-        {
-            int[] values = new int[] { value0, value1, value2 };           
-            Assert.Throws<InvalidOperationException>( () => NumberFinder.FindMissingValue(values));
-        }
-
-        [Theory] // [item, item, item, MISSING NUMBER]
         [InlineData(1, 2, 4, 3)]
         [InlineData(1, 3, 4, 2)]
         [InlineData(10, 12, 13, 11)]
@@ -53,7 +43,7 @@ namespace MissingNumberFinderTests
         [Theory] // [item, [...], item, MISSING NUMBER]
         [InlineData(1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 10)] // 10 missing (right end)
         [InlineData(1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 2)] // 2 missing (left end)
-        [InlineData(1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 5)] // 10 missing (midpoint)
+        [InlineData(1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 5)] // 5 missing (midpoint)
         public void Correct_Results_For_10_Item_Lists(int value0, int value1, int value2, int value3,
                                                         int value4, int value5, int value6,
                                                         int value7, int value8, int value9,

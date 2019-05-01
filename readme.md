@@ -4,7 +4,7 @@ This repo explores how to use XUnit Theory & data driven tests.
 # Problem
 These tests are used to test a solution to the following problem:
 
-A given sequnce of integer all have the same delta (Δ), yet one number is missing. Find the missing number. For example:
+A given sequnce of integers all have the same delta (Δ), yet one number is missing. Find the missing number. For example:
 
 Example 1: {1,2,4} Δ=1, Missing = 3 <br/>
 Example 2: {1,3,4} Δ=1, Missing = 2 <br/>

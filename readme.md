@@ -1,5 +1,5 @@
 # Summary
-This repo explores how to use XUnit Theory & data driven tests. 
+This repo explores how to use XUnit Theory tests using the InlineData attribute. 
 
 # Problem
 These tests are used to test a solution to the following problem:
